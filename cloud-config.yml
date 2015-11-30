@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: training_user
+    groups: sudo
+    lock-passwd: false
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    passwd: $6$KsnQuxft$aO2uDuLkyNbJum1/WggvfkkOehif/IrqGz7kB9tYztv35qy3PtZuS2hJw5acHGnb0kIcDwtQ16yr4qVX5DvzZ0

@@ -1,0 +1,6 @@
+do_token = "your_do_token"
+do_ssh_key_file = "/path/to/key"
+do_region = "lon1"
+do_image = "centos-7-0-x64"
+do_size = "512mb"
+num_servers = 2
